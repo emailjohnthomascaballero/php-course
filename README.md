@@ -12,7 +12,7 @@
 
 ## useful links
 
-[cheatsheet](https://artisan.page)
+[cheatsheet](https://www.codewithharry.com/blogpost/php-cheatsheet/)
 
 ## youtube tutorial
 
