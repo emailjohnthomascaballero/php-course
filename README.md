@@ -8,7 +8,7 @@
 "Documenting my journey of learning PHP and building exciting projects."
 
 ## my todolist
-[Essential PHP Concepts for Proficient Web Development](https://www.notion.so/5d0c6d7729ab4aa3986da7a4037f8c80?v=c1db97a6b48a4b4b8419f5a29eb45571&pvs=4)
+[Essential PHP Concepts for Proficient Web Development](https://www.notion.so/5d0c6d7729ab4aa3986da7a4037f8c80?v=c1db97a6b48a4b4b8419f5a29eb45571)
 
 ## useful links
 
