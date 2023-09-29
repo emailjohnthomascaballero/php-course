@@ -1,4 +1,4 @@
-<!-- Essential PHP Concepts to Master Before Learning Laravel -->
+<!-- STEP 1: Learn Variables -->
 
 <?php
 // php hello world
