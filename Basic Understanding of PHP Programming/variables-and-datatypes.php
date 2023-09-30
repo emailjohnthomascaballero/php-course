@@ -86,8 +86,19 @@ class Person
 
 $person = new Person(); //object (an instance) of the "Person" class and store it in the variable 
 echo $person->name = "Bob" . "<br>"; //you can access object properties using the -> operator.
-echo $person->name = "John"; //also immediately displays the value "Bob" using echo.
+echo $person->name = "John" . "<br>"; //also immediately displays the value "Bob" using echo.
 
+
+class PersonOne{
+  public $name;
+  public function sayHello(){
+    echo "Hello, my name is " . $this->name;
+  }
+}
+
+$personOne = new PersonOne();
+echo $personOne->name = "Lee" . "<br>";
+$personOne->sayHello(); //calling a function inside the object
 
 
 // NULL: Represents a variable with no value.
@@ -95,5 +106,18 @@ $noValue = null;
 // Database Values:
 // In database interactions, NULL is used to represent missing or unknown data. When you query a database and a field has no value, it's often returned as NULL.
 
+// Type Casting:
+// You can convert data from one type to another, a process known as type casting or type conversion. For example:
+$numberAsString = "69";
+$number = (int) $numberAsString;
 
+// Type Checking:
+// You can check the data type of a variable using functions like is_int(), is_float(), is_string(), and is_bool().
+if(is_int($number)){
+  echo "the variable is integer";
+}
+
+// Understanding variables and data types is fundamental to programming in PHP. These concepts enable you to store and manipulate different kinds of information in your PHP scripts, making your code dynamic and flexible.
+
+// These data types are essential for working with different types of information in your PHP programs. You can use these data types to store, manipulate, and display data in a variety of ways to make your PHP applications dynamic and versatile.
 ?>
