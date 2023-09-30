@@ -1,8 +1,7 @@
-<!-- STEP 1: Learn Variables -->
+<!-- Variables and Data Types: -->
+<!-- Know how to declare and use variables in PHP. -->
 
 <?php
-// php hello world
-echo "Hello World<br>";
 
 // Variables
 
@@ -69,8 +68,32 @@ echo "John currently student? " . $isStudent . "<br>";
 
 // Create a variable, $age, and assign your age to it. Use variable interpolation to display a message that includes your age within a sentence.
 $age = 20;
-echo "I am $age years old";
+echo "I am $age years old <br>";
 
 
 // Practice these exercises to solidify your understanding of PHP variables. Variables are the foundation of programming, and mastering them is essential as you move on to more complex PHP concepts.
+
+
+
+// 1. Array: Represents a collection of values.
+$fruits = array("banana", "avocado", "watermelon");
+
+// Object: Represents instances of user-defined classes.
+class Person
+{
+  public $name; //property
+}
+
+$person = new Person(); //object (an instance) of the "Person" class and store it in the variable 
+echo $person->name = "Bob" . "<br>"; //you can access object properties using the -> operator.
+echo $person->name = "John"; //also immediately displays the value "Bob" using echo.
+
+
+
+// NULL: Represents a variable with no value.
+$noValue = null;
+// Database Values:
+// In database interactions, NULL is used to represent missing or unknown data. When you query a database and a field has no value, it's often returned as NULL.
+
+
 ?>
