@@ -15,11 +15,11 @@ functionName();
 
 // parameters: This is an optional list of parameters the function accepts. Parameters are variables that hold values passed to the function.
 // Here's an example of a simple function:
-function greet($name){
-  echo "your name: $name <br>";
-}
+// function greet($name){
+//   echo "your name: $name <br>";
+// }
 
-greet("John"); // Calls the greet function with the name "John"
+// greet("John"); // Calls the greet function with the name "John"
 
 
 
@@ -44,9 +44,68 @@ echo add(5, 1) . "<br>";
 
 // For example, the strlen() function calculates the length of a string:
 $text = "Hello, World!";
-echo "text length: " . strlen($text);
+echo "text length: " . strlen($text) . "<br>";
 
 
 
 // Function parameters and return values are crucial for creating modular and reusable code. Functions can accept data through parameters, process it, and then provide a result through return values. These concepts help make your code more organized, maintainable, and efficient.
+
+
+
+
+// Defining and Calling Functions Exercises:
+// 1. Create a PHP function called greet that takes a name as a parameter and displays a greeting message. Call this function to greet three different people.
+
+function greet($name) {
+  echo "Hello: $name <br>";
+}
+
+greet("John");
+greet("Lee");
+greet("Dar");
+
+
+
+// 2. Define a function calculateArea that takes the length and width of a rectangle as parameters and returns its area. Call this function with different values and display the results.
+function calculateArea($length, $width) {
+  return $length * $width;
+}
+
+echo calculateArea(4, 3) . "<br>";
+
+
+
+
+
+
+// Function Parameters and Return Values Exercises:
+
+// 1. Create a function isEven that takes an integer as a parameter and returns true if it's even and false if it's odd. Call this function to check if numbers 3, 8, and 12 are even.
+function isEven($int){
+  return $int % 2 == 0;
+}
+
+echo isEven(4) . "<br>";
+
+
+
+
+
+// Write a function isAdult that takes a person's age as a parameter and returns true if they are 18 or older, and false if they are not. Call this function to determine the adult status of a person aged 15, 21, and 17.
+function isAdult($age) {
+  if ($age >= 18) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+echo isAdult(18);
+
+
+
+
+// These exercises help you practice defining functions, using function parameters, and working with return values in PHP. They are designed to reinforce your understanding of how functions work.
+
+
 ?>
