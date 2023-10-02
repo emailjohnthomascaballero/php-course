@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Forms</title>
 </head>
 <body>
 
@@ -18,13 +18,15 @@ Learn how to access form data through the $_POST and $_GET superglobal arrays. -
   
   HTML forms are used to collect user input and send it to the server for processing. They can include various input elements like text fields, radio buttons, checkboxes, and more. Here's a simple example of an HTML form: -->
 
-<form action="forms.php" method="post">
+<form action="7-forms.php" method="post">
   <label for="name">Name:</label>
   <input type="text" name="name" id="name">
   <input type="submit" value="Submit">
 </form>
 
 <!-- In this form, the action attribute specifies the URL to which the form data will be sent, and the method attribute specifies the HTTP method to use (e.g., post or get). -->
+
+
 
 <?php 
 
