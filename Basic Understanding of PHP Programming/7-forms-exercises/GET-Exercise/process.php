@@ -9,15 +9,14 @@
 <body>
   
 <?php
-if (isset($_POST["name"])) {
-  $name = $_POST["name"];
-  $age = $_POST["age"];
-  $color = $_POST["color"];
 
-  echo "Hello, $name, your age: $age and your favorite color: $color";
+if (isset($_GET["city"])) {
+  $city = $_GET["city"];
+  echo "Your city: $city";
 } else {
-  echo "Form not submitted.";
+  echo "Form not submitted";
 }
+
 ?>
 
 </body>
